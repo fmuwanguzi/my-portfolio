@@ -12,7 +12,7 @@ import PastProjects from './pages/PastProjects'
 function App() {
   return (
     <div className="App">
-      <Navbarup />
+      <Navbarup /> 
       <Switch>
         <Route exact path='/' component={ About }/>
         <Route exact path='/pastprojects' component={ PastProjects }/>
