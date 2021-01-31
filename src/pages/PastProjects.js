@@ -1,12 +1,12 @@
 import React from 'react'
-import { Card, Button, CardColumns } from 'react-bootstrap'
+import { Card, Button, CardGroup } from 'react-bootstrap'
 
 const PastProjects = () => {
     return(
         
-            <CardColumns>
+            <CardGroup>
             <Card  bg={'info'}style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="/images/snake.png" />
+            <Card.Img width={171} height={280} variant="top" src="/images/snake.png" />
             <Card.Body>
                 <Card.Title>Snake Head Game</Card.Title>
                 <Card.Text>
@@ -19,11 +19,11 @@ const PastProjects = () => {
 
 
             <Card  bg={'info'}style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="/images/weather.png" />
+            <Card.Img width={171} height={280} variant="top" src="/images/weather.png" />
             <Card.Body>
                 <Card.Title>My Simple weather app</Card.Title>
                 <Card.Text>
-                Project built with authenitaction, node.js, express and the openweathermap API
+                Project built with authentication, node.js, express and the openweathermap API
                 </Card.Text>
                 <a href="https://my-weather-app.herokuapp.com/"><Button variant="dark">Deployed Link</Button> </a> 
                 <a href="https://github.com/fmuwanguzi/weather-app"><Button variant="dark">Github Link</Button> </a>
@@ -32,7 +32,7 @@ const PastProjects = () => {
 
 
             <Card  bg={'info'}style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="/images/fit.png" />
+            <Card.Img width={171} height={280} variant="top" src="/images/fit.png" />
             <Card.Body>
                 <Card.Title>Workout and nutrition</Card.Title>
                 <Card.Text>
@@ -45,7 +45,7 @@ const PastProjects = () => {
 
 
             <Card  bg={'info'}style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="/images/ikick.png" />
+            <Card.Img width={171} height={280} variant="top" src="/images/ikick.png" />
             <Card.Body>
                 <Card.Title>Kick it(My social app)</Card.Title>
                 <Card.Text>
@@ -57,7 +57,7 @@ const PastProjects = () => {
             </Card>
 
 
-            </CardColumns>
+            </CardGroup>
         
     )
 }

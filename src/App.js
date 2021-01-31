@@ -4,9 +4,10 @@ import { Route, Switch } from 'react-router-dom'
 import './App.css';
 //components
 import Navbarup from './components/Navbarup'
+import Footer from './components/Footer'
 //Pages
 import About from './pages/About'
-import Github from './pages/Github'
+import Contact from './pages/Contact'
 import PastProjects from './pages/PastProjects'
 
 function App() {
@@ -16,9 +17,10 @@ function App() {
       <Switch>
         <Route exact path='/' component={ About }/>
         <Route exact path='/pastprojects' component={ PastProjects }/>
-        <Route exact path='/github' component={ Github }/>
+        <Route exact path='/contact' component={ Contact }/>
       </Switch>
-
+      
+      <Footer />
     
     </div>
   );
